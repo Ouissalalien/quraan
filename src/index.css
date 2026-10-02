@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-quran {
+  font-family: 'Amiri', Georgia, serif;
+}
+
+.font-cairo {
+  font-family: 'Cairo', system-ui, sans-serif;
+}
+
+/* Islamic Geometric Subtile Pattern */
+.islamic-pattern {
+  background-color: #064e3b;
+  background-image: radial-gradient(#059669 0.75px, transparent 0.75px), radial-gradient(#047857 0.75px, #064e3b 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.islamic-pattern-light {
+  background-color: #fafaf9;
+  background-image: radial-gradient(#d6d3d1 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
